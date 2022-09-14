@@ -63,13 +63,30 @@ section#instructors .socials i {
 
 section#instructors .socials i:hover {
   opacity: 0.5;
+}
 
 /*! ----------- 4- STUDENTS SECTION ----------*/
 
 /*! ----------- 5- COURSES SECTION ----------- */
+section#courses .nav-item .nav-link.active {
+  background-color: var(--red);
+}
+
+section#courses .nav-link {
+  color: white;
+}
 
 /*! ----------- 6- CONTACT SECTION ------------ */
+#contact_span {
+  border: 1px solid red;
+}
 
-/** -------------- UP-BUTTON ------------------ */
+/** -------------- CONTACT-BUTTONS ------------------ */
+#contact_icons {
+  color: #dc3545;
+}
+#contact_btn {
+  width: 7rem;
+}
 
 /*! --------------- 7- FOOTER ----------------- */
